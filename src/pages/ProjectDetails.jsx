@@ -90,7 +90,7 @@ export function ProjectDetails() {
         throw new Error('Invalid guest data');
       }
 
-      const response = await axios.post('https://wedding-card-backend.onrender.com/generate-invitations', {
+      const response = await axios.post('wedding-card-backend-git-master-aditya-barads-projects-9ad0a2c3.vercel.app/generate-invitations', {
         projectId: id,
         guestName: guest.name,
       }, {
